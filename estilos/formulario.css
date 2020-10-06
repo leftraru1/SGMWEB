@@ -1,0 +1,174 @@
+.td_title{
+    width:100%;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: darkslategray;
+    font-size: 16px;
+    font-weight: bold;
+}
+.td_subtitle{
+    width:100%;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: darkslategray;
+    font-size: 14px;
+    font-weight: bold;
+}
+.td_subtitle_mid{
+    width:50%;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    color: darkslategray;
+    font-size: 12px;
+    font-weight: bold;
+}
+.td_label{
+    width:15%;
+    text-align: left;
+    color: black;
+}
+.td_field{
+    width:24%;
+    text-align: left;
+    color: slategray;
+}
+.margen_izq{
+    width:12%
+}
+.margen_der{
+    width:8%
+}
+.puntos{
+    width:1%;
+}
+.td_title_foto{
+    text-align: center;
+    background-color: lightslategray;
+}
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}  
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.button1 {
+    background-color: darkgreen;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 12px;
+    margin: 2px 1px;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }  
+  .button1:hover {opacity: 1}
+.button2 {
+    background-color: darkslategray;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 12px;
+    margin: 2px 1px;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }  
+  .button2:hover {opacity: 1}
+  
+.button_form {
+    background-color:darkslategray;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    font-size: 12px;
+    margin: 2px 1px;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }  
+  .button_form:hover {opacity: 1}
+
+/*CSS FORM FILE UPLOAD*/
+
+
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    border: 2px solid darkslategray;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 800px;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+    
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+  }
+
+  .container *{
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+
+  .container h2{
+      font-size: 16px;
+      color: white;
+      background-color: darkslategray;
+      display: block;
+      margin-top: 2px;
+      margin-bottom: 5px;
+      line-height: 30px;
+      text-align: center;
+  }
+  
+  label{
+      height: 31px;
+      vertical-align: middle;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, .container {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

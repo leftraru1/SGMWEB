@@ -1,0 +1,141 @@
+BODY {
+	FONT-SIZE: 10px; SCROLLBAR-HIGHLIGHT-COLOR: rgb(255,255,255); SCROLLBAR-SHADOW-COLOR: rgb(240,237,238); COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: rgb(212,208,200); FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: rgb(196,193,182)
+}
+TD {
+	FONT-SIZE: 10px; SCROLLBAR-HIGHLIGHT-COLOR: rgb(255,255,255); SCROLLBAR-SHADOW-COLOR: rgb(240,237,238); COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: rgb(212,208,200); FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: rgb(196,193,182)
+}
+TR {
+	FONT-SIZE: 10px; SCROLLBAR-HIGHLIGHT-COLOR: rgb(255,255,255); SCROLLBAR-SHADOW-COLOR: rgb(240,237,238); COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: rgb(212,208,200); FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: rgb(196,193,182)
+}
+TABLE {
+	FONT-SIZE: 10px; SCROLLBAR-HIGHLIGHT-COLOR: rgb(255,255,255); SCROLLBAR-SHADOW-COLOR: rgb(240,237,238); COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: rgb(212,208,200); FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: rgb(196,193,182)
+}
+LI {
+	FONT-SIZE: 10px; SCROLLBAR-HIGHLIGHT-COLOR: rgb(255,255,255); SCROLLBAR-SHADOW-COLOR: rgb(240,237,238); COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: rgb(212,208,200); FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: rgb(196,193,182)
+}
+P {
+	FONT-SIZE: 10px; SCROLLBAR-HIGHLIGHT-COLOR: rgb(255,255,255); SCROLLBAR-SHADOW-COLOR: rgb(240,237,238); COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: rgb(212,208,200); FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: rgb(196,193,182)
+}
+DIV {
+	FONT-SIZE: 10px; SCROLLBAR-HIGHLIGHT-COLOR: rgb(255,255,255); SCROLLBAR-SHADOW-COLOR: rgb(240,237,238); COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: rgb(212,208,200); FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: rgb(196,193,182)
+}
+A:visited {
+	FONT-WEIGHT: bold; COLOR: #336699; TEXT-DECORATION: none
+}
+A:link {
+	FONT-WEIGHT: bold; COLOR: #336699; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: bold; COLOR: #000000; TEXT-DECORATION: none
+}
+A.menu1:visited {
+	COLOR: #336699; TEXT-DECORATION: none
+}
+A.menu1:link {
+	COLOR: #336699; TEXT-DECORATION: none
+}
+A.menu1:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.menu2:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.menu2:link {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.menu2:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.menu3:visited {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+A.menu3:link {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+A.menu3:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.texto-neg-norm {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.texto-neg-bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.texto-gris-norm {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.texto-gris-bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.texto-verde-norm {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #666600; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.texto-verde-bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #666600; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.texto-cafe-norm {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #bf8200; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.texto-cafe-bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #bf8200; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.texto-blan-norm {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.texto-blan-bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.texto-rojo-norm {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #cc0000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.texto-rojo-bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #cc0000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.texto-azul-norm {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #336699; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.texto-azul-bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #336699; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tit-azul-bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #336699; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tit-neg-bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.formu1 {
+	BORDER-RIGHT: #333300 1px solid; BORDER-TOP: #333300 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: #333300 1px solid; WIDTH: 40px; COLOR: #333300; LINE-HEIGHT: normal; BORDER-BOTTOM: #333300 1px solid; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.formu2 {
+	BORDER-RIGHT: #333300 1px solid; BORDER-TOP: #333300 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: #333300 1px solid; WIDTH: 50px; COLOR: #333300; LINE-HEIGHT: normal; BORDER-BOTTOM: #333300 1px solid; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.formu3 {
+	BORDER-RIGHT: #333300 1px solid; BORDER-TOP: #333300 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: #333300 1px solid; WIDTH: 70px; COLOR: #333300; LINE-HEIGHT: normal; BORDER-BOTTOM: #333300 1px solid; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.formu4 {
+	BORDER-RIGHT: #333300 1px solid; BORDER-TOP: #333300 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: #333300 1px solid; WIDTH: 100px; COLOR: #333300; LINE-HEIGHT: normal; BORDER-BOTTOM: #333300 1px solid; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.formu5 {
+	BORDER-RIGHT: #333300 1px solid; BORDER-TOP: #333300 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: #333300 1px solid; WIDTH: 140px; COLOR: #333300; LINE-HEIGHT: normal; BORDER-BOTTOM: #333300 1px solid; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.formu6 {
+	BORDER-RIGHT: #333300 1px solid; BORDER-TOP: #333300 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: #333300 1px solid; WIDTH: 200px; COLOR: #333300; LINE-HEIGHT: normal; BORDER-BOTTOM: #333300 1px solid; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.formu7 {
+	BORDER-RIGHT: #333300 1px solid; BORDER-TOP: #333300 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: #333300 1px solid; WIDTH: 60px; COLOR: #333300; LINE-HEIGHT: normal; BORDER-BOTTOM: #333300 1px solid; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.formu8 {
+	BORDER-RIGHT: #333300 1px solid; BORDER-TOP: #333300 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: #333300 1px solid; WIDTH: 10px; COLOR: #333300; LINE-HEIGHT: normal; BORDER-BOTTOM: #333300 1px solid; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.input {
+	BORDER-RIGHT: #c2c266 1px solid; BORDER-TOP: #c2c266 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: #c2c266 1px solid; COLOR: #333300; LINE-HEIGHT: normal; BORDER-BOTTOM: #c2c266 1px solid; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.bg_gris {
+	BORDER-RIGHT: #cccccc thin solid; BORDER-TOP: #cccccc thin solid; BORDER-LEFT: #cccccc thin solid; BORDER-BOTTOM: #cccccc thin solid; BACKGROUND-COLOR: #f7f7f7
+}
+.border {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+BODY {
+	
+}

@@ -1,0 +1,25 @@
+/* estilo general de mensajes */
+div#info, div#suseso, div#alerta, div#error, div#validacion {
+display:none;
+cursor: pointer;
+color:#000;
+font: 14px/100% Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+    padding:15px 10px 15px 70px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+	border:dimgray 1px solid;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;
+}
+/* estilo de mensajes */
+.info{background:#4282b8 url(../imagenes/info.png);}
+.info2{background:#275aa1 url(../imagenes/info.png);}
+.suseso{background:#d0d0d0 url(../imagenes/suseso.png);}
+.suseso2{background:#f4f4f4 url(../imagenes/suseso.png);}
+.alerta{background:#ffaf1f url(../imagenes/alerta.png);}
+.alerta2{background:#fe8101 url(../imagenes/alerta.png);}
+.error{background:#cb0101 url(../imagenes/error.png);}
+.error2{background:#e11012 url(../imagenes/error.png);}
+.validacion{background:#32c622 url(../imagenes/ok.png);}
+.validacion2{background:#0ea200 url(../imagenes/ok.png);}

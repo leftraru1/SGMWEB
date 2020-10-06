@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="menu.master.cs" Inherits="menu" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    
+    <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="jquery.lksMenu.js"></script>
+    
+    <link href="lksMenuSkin2.css" rel="stylesheet" />
+    <link href="estilos/texto.css" rel="stylesheet" />
+    <link href="estilos/tabla.css" rel="stylesheet" />
+    <link href="estilos/grid.css" rel="stylesheet" />
+    <link href="estilos/webpart.css" rel="stylesheet" />
+    <link href="estilos/calendario.css" rel="stylesheet" />
+    <link href="estilos/controls.css" rel="stylesheet" />
+        <script>
+            $('document').ready(function () {
+                $('.menu').lksMenu();
+            });
+        </script>
+    <%-- con estos valores el div se descuadra width="99%" height="100%" style="width: 99%; height: 100%" --%>
+    <div >
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </div> 
+    <style type="text/css">
+
+       
+
+        .auto-style3
+        {
+            height: 90px;
+            background-image:url('Imagenes/baner2.png');
+            text-align: right;
+            vertical-align:baseline;
+            /*background-image:url('Imagenes/images.jpg');*/
+           
+        }
+         .auto-style6
+        {
+            width: 313px;
+        }
+         </style>
+
+    
+   
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div draggable="true" >
+        <table style="width: 100%; height: 774px;">
+            <tr>
+                <td class="auto-style3" colspan="2" >
+
+                           
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td id="tdMenu" runat="server"  draggable="auto" class="auto-style6" >
+
+                     <div id="divMenu"  class='menu' runat="server" draggable="auto">
+                
+                     </div>
+
+                </td>
+                <td id="holder" runat="server" class="WebPartShadow">
+
+                        <asp:Button ID="btnOcultar" runat="server" OnClick="Button1_Click1" CssClass="botonnew" formnovalidate Text="&lt;&lt;" CausesValidation="False" />
+                            
+                           
+                     <asp:Label ID="lbIdUs" runat="server"></asp:Label>
+                            
+                        &nbsp;<asp:Label ID="lbIdPerfil" runat="server"></asp:Label>
+                        &nbsp;<asp:Label ID="lbUserName" runat="server"></asp:Label>
+                        &nbsp;<asp:Label ID="lbNomUs" runat="server"></asp:Label>
+                        &nbsp;<asp:Label ID="slash" runat="server">/</asp:Label>
+
+                        <asp:Label ID="lbNomEmpresa" runat="server"></asp:Label>
+                        <asp:Label ID="slash2" runat="server">/</asp:Label>
+
+                        &nbsp;<asp:LinkButton ID="lbCerrarSess" runat="server" OnClick="lbCerrarSess_Click">Cerrar Sesión</asp:LinkButton>
+
+                        <asp:Label ID="lbRutEm" runat="server"></asp:Label>
+                     <asp:Label ID="lbErrorLog" runat="server"></asp:Label>
+
+                           
+                    <asp:Panel ID="Panel1" runat="server" Height="673px" style="margin-left: 4px; margin-top: 0px;" Width="1124px">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            
+                        </asp:ContentPlaceHolder>
+                    </asp:Panel>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

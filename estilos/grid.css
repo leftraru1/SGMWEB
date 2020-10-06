@@ -1,0 +1,76 @@
+
+/*.GridItem
+{
+	BACKGROUND-POSITION-Y: bottom;
+	background-image: url(resources/images/grids/fondo_punts_malva.gif);
+	background-repeat: repeat-x;
+}
+*/
+
+.GridFooter
+{
+	font-size: 12px;
+	vertical-align: baseline;
+	color: black;
+	font-family:  trebuchet ms, verdana, tahoma, arial;
+	background-color: #eeeeee;
+	text-align: center;
+}
+.GridHeader
+{
+	font-weight: bold;
+	font-size: 12px;
+	border-bottom: black 1px solid;
+	font-family:  trebuchet ms, verdana, tahoma, arial;
+	background-color: #b0c4de;
+}
+
+.GridPager
+{
+    background-color: #000000;
+    font-family:  trebuchet ms, verdana, tahoma, arial;
+    font-size:  11px;
+    color: #333333; 
+}
+
+.GridItems
+{
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #f1f7fa;
+	color: #333333;
+}
+
+.GridSelectedItem
+{
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #f1f7fa;
+	color: #333333;
+}
+
+.GridEditItem
+{
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #f1f7fa;
+	color: #333333;
+}
+
+.GridAlternativeItems
+{
+	background-color: #000000; 
+	font-family: trebuchet ms, verdana, tahoma, arial;
+    font-size:  11px;
+    color: #333333;
+	margin-top: 0px;
+}
+
+.GridActiveItem
+{
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;    
+	background-color: #ffffff;
+	color: #333333;
+}
+

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Manifiesto" targetNamespace="http://tempuri.org/Manifiesto.xsd" xmlns:mstns="http://tempuri.org/Manifiesto.xsd" xmlns="http://tempuri.org/Manifiesto.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Manifiesto" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="Manifiesto" msprop:Generator_UserDSName="Manifiesto">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Manifiesto" msprop:Generator_TableClassName="ManifiestoDataTable" msprop:Generator_TableVarName="tableManifiesto" msprop:Generator_RowChangedName="ManifiestoRowChanged" msprop:Generator_TablePropName="_Manifiesto" msprop:Generator_RowDeletingName="ManifiestoRowDeleting" msprop:Generator_RowChangingName="ManifiestoRowChanging" msprop:Generator_RowEvHandlerName="ManifiestoRowChangeEventHandler" msprop:Generator_RowDeletedName="ManifiestoRowDeleted" msprop:Generator_RowClassName="ManifiestoRow" msprop:Generator_UserTableName="Manifiesto" msprop:Generator_RowEvArgName="ManifiestoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_MANIFIESTO" msprop:Generator_ColumnVarNameInTable="columnID_MANIFIESTO" msprop:Generator_ColumnPropNameInRow="ID_MANIFIESTO" msprop:Generator_ColumnPropNameInTable="ID_MANIFIESTOColumn" msprop:Generator_UserColumnName="ID_MANIFIESTO" type="xs:string" minOccurs="0" />
+              <xs:element name="INSTALADOR" msprop:Generator_ColumnVarNameInTable="columnINSTALADOR" msprop:Generator_ColumnPropNameInRow="INSTALADOR" msprop:Generator_ColumnPropNameInTable="INSTALADORColumn" msprop:Generator_UserColumnName="INSTALADOR" type="xs:string" minOccurs="0" />
+              <xs:element name="FECHA_GENERACION" msprop:Generator_ColumnVarNameInTable="columnFECHA_GENERACION" msprop:Generator_ColumnPropNameInRow="FECHA_GENERACION" msprop:Generator_ColumnPropNameInTable="FECHA_GENERACIONColumn" msprop:Generator_UserColumnName="FECHA_GENERACION" type="xs:string" minOccurs="0" />
+              <xs:element name="CONTRATISTA" msprop:Generator_ColumnVarNameInTable="columnCONTRATISTA" msprop:Generator_ColumnPropNameInRow="CONTRATISTA" msprop:Generator_ColumnPropNameInTable="CONTRATISTAColumn" msprop:Generator_UserColumnName="CONTRATISTA" type="xs:string" minOccurs="0" />
+              <xs:element name="REGION" msprop:Generator_ColumnVarNameInTable="columnREGION" msprop:Generator_ColumnPropNameInRow="REGION" msprop:Generator_ColumnPropNameInTable="REGIONColumn" msprop:Generator_UserColumnName="REGION" type="xs:string" minOccurs="0" />
+              <xs:element name="BODEGA" msprop:Generator_ColumnVarNameInTable="columnBODEGA" msprop:Generator_ColumnPropNameInRow="BODEGA" msprop:Generator_ColumnPropNameInTable="BODEGAColumn" msprop:Generator_UserColumnName="BODEGA" type="xs:string" minOccurs="0" />
+              <xs:element name="RESPONSABLE" msprop:Generator_ColumnVarNameInTable="columnRESPONSABLE" msprop:Generator_ColumnPropNameInRow="RESPONSABLE" msprop:Generator_ColumnPropNameInTable="RESPONSABLEColumn" msprop:Generator_UserColumnName="RESPONSABLE" type="xs:string" minOccurs="0" />
+              <xs:element name="MEDIDORES" msprop:Generator_ColumnVarNameInTable="columnMEDIDORES" msprop:Generator_ColumnPropNameInRow="MEDIDORES" msprop:Generator_ColumnPropNameInTable="MEDIDORESColumn" msprop:Generator_UserColumnName="MEDIDORES" type="xs:string" minOccurs="0" />
+              <xs:element name="ACCESORIOS" msprop:Generator_ColumnVarNameInTable="columnACCESORIOS" msprop:Generator_ColumnPropNameInRow="ACCESORIOS" msprop:Generator_ColumnPropNameInTable="ACCESORIOSColumn" msprop:Generator_UserColumnName="ACCESORIOS" type="xs:string" minOccurs="0" />
+              <xs:element name="TIPO_MANIFIESTO" msprop:Generator_ColumnVarNameInTable="columnTIPO_MANIFIESTO" msprop:Generator_ColumnPropNameInRow="TIPO_MANIFIESTO" msprop:Generator_ColumnPropNameInTable="TIPO_MANIFIESTOColumn" msprop:Generator_UserColumnName="TIPO_MANIFIESTO" type="xs:string" minOccurs="0" />
+              <xs:element name="CANTIDAD_MED" msprop:Generator_ColumnVarNameInTable="columnCANTIDAD_MED" msprop:Generator_ColumnPropNameInRow="CANTIDAD_MED" msprop:Generator_ColumnPropNameInTable="CANTIDAD_MEDColumn" msprop:Generator_UserColumnName="CANTIDAD_MED" type="xs:string" minOccurs="0" />
+              <xs:element name="CANTIDAD_ACC" msprop:Generator_ColumnVarNameInTable="columnCANTIDAD_ACC" msprop:Generator_ColumnPropNameInRow="CANTIDAD_ACC" msprop:Generator_ColumnPropNameInTable="CANTIDAD_ACCColumn" msprop:Generator_UserColumnName="CANTIDAD_ACC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DetalleManifiesto" msprop:Generator_TableClassName="DetalleManifiestoDataTable" msprop:Generator_TableVarName="tableDetalleManifiesto" msprop:Generator_RowChangedName="DetalleManifiestoRowChanged" msprop:Generator_TablePropName="DetalleManifiesto" msprop:Generator_RowDeletingName="DetalleManifiestoRowDeleting" msprop:Generator_RowChangingName="DetalleManifiestoRowChanging" msprop:Generator_RowEvHandlerName="DetalleManifiestoRowChangeEventHandler" msprop:Generator_RowDeletedName="DetalleManifiestoRowDeleted" msprop:Generator_RowClassName="DetalleManifiestoRow" msprop:Generator_UserTableName="DetalleManifiesto" msprop:Generator_RowEvArgName="DetalleManifiestoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CODIGO_ARTICULO" msprop:Generator_ColumnVarNameInTable="columnCODIGO_ARTICULO" msprop:Generator_ColumnPropNameInRow="CODIGO_ARTICULO" msprop:Generator_ColumnPropNameInTable="CODIGO_ARTICULOColumn" msprop:Generator_UserColumnName="CODIGO_ARTICULO" type="xs:string" minOccurs="0" />
+              <xs:element name="ARTICULO" msprop:Generator_ColumnVarNameInTable="columnARTICULO" msprop:Generator_ColumnPropNameInRow="ARTICULO" msprop:Generator_ColumnPropNameInTable="ARTICULOColumn" msprop:Generator_UserColumnName="ARTICULO" type="xs:string" minOccurs="0" />
+              <xs:element name="TIPO_ARTICULO" msprop:Generator_ColumnVarNameInTable="columnTIPO_ARTICULO" msprop:Generator_ColumnPropNameInRow="TIPO_ARTICULO" msprop:Generator_ColumnPropNameInTable="TIPO_ARTICULOColumn" msprop:Generator_UserColumnName="TIPO_ARTICULO" type="xs:string" minOccurs="0" />
+              <xs:element name="DIAMETRO" msprop:Generator_ColumnVarNameInTable="columnDIAMETRO" msprop:Generator_ColumnPropNameInRow="DIAMETRO" msprop:Generator_ColumnPropNameInTable="DIAMETROColumn" msprop:Generator_UserColumnName="DIAMETRO" type="xs:string" minOccurs="0" />
+              <xs:element name="CANTIDAD" msprop:Generator_ColumnVarNameInTable="columnCANTIDAD" msprop:Generator_ColumnPropNameInRow="CANTIDAD" msprop:Generator_ColumnPropNameInTable="CANTIDADColumn" msprop:Generator_UserColumnName="CANTIDAD" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

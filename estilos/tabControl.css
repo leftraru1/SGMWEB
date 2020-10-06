@@ -1,0 +1,92 @@
+	
+TD {
+	FONT-FAMILY: Arial, Verdana
+}
+
+
+.TabSelectedTab {
+	BORDER-BOTTOM: #E0E2E2 1px solid;
+	BORDER-RIGHT: #000033 1px solid; 
+	BORDER-TOP: #000033 1px solid; 
+	FONT-SIZE: 0.8em; BACKGROUND-COLOR: #e0e2e2;
+	color: black;
+}
+.TabFirstSelectedTab {
+	BORDER-BOTTOM: #E0E2E2 1px solid;
+	BORDER-RIGHT: #000033 1px solid; 
+	border-left: #000033 1px solid;
+	BORDER-TOP: #000033 1px solid; 
+	FONT-SIZE: 0.8em; BACKGROUND-COLOR: #e0e2e2;
+	color: black;
+}
+.TabOtherTab
+{
+	BORDER-BOTTOM: #000033 1px solid;
+	border-right: #000033 1px solid;
+	border-top: #000033 1px solid;
+	font-size: 0.8em;
+	color: #aabbcc;
+	background-color: #99cc66;
+}
+.TabFirstOtherTab
+{
+	BORDER-BOTTOM: #000033 1px solid;
+	border-right: #000033 1px solid;
+	border-left: #000033 1px solid;
+	border-top: #000033 1px solid;
+	font-size: 0.8em;
+	color: #aabbcc;
+	background-color: #99cc66;
+}
+.TabLastOtherTab
+{
+	BORDER-BOTTOM: #000033 1px solid;
+}
+.ContainerTop {
+	BORDER-LEFT: #000033 1px solid; BORDER-RIGHT: #000033 1px solid; FONT-SIZE: 0.7em; COLOR: #aabbcc; BACKGROUND-COLOR: #E0E2E2;
+}
+.Container
+{
+	border-right: #000033 1px solid;
+	border-left: #000033 1px solid;
+	color: #aabbcc;
+	background-color: #e0e2e2;
+}
+.ContainerBottom {
+	BORDER-LEFT: #000033 1px solid; BORDER-RIGHT: #000033 1px solid; BORDER-BOTTOM: #000033 1px solid; FONT-SIZE: 0.7em; COLOR: #aabbcc; BACKGROUND-COLOR: #E0E2E2
+}
+.TabBg {
+	BACKGROUND-COLOR: #ffee99
+}
+.SeparatorTab {
+	BORDER-LEFT: #cccc66 1px solid
+}
+.SelectedTab
+{
+	font-weight: bold;
+	color: black;
+}
+.OtherTabs {
+	FONT-WEIGHT: normal; COLOR: navy
+}
+A.OtherTabs:link {
+	COLOR: navy; TEXT-DECORATION: none
+}
+A.SelectedTab:link {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.OtherTabs:visited {
+	COLOR: navy; TEXT-DECORATION: none
+}
+A.SelectedTab:visited {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.OtherTabs:active {
+	COLOR: navy; TEXT-DECORATION: none
+}
+A.SelectedTab:active {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.OtherTabs:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}

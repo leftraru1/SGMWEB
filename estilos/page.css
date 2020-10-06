@@ -1,0 +1,42 @@
+
+BODY {
+BACKGROUND-COLOR: white;
+}
+
+
+}
+
+
+
+h1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12pt; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 3px; WIDTH: 100%; COLOR: #003366; PADDING-TOP: 2px; LETTER-SPACING: -1px; font-family: trebuchet ms, verdana, tahoma, arial /*222*/
+}
+
+h2 {
+	margin-top: 1pt;
+	font-weight: normal;
+	font-size: 9pt;
+	margin-bottom: 1pt;
+	color: black;
+	font-style: normal;
+	font-family: trebuchet ms, verdana, tahoma, arial
+}
+
+h1.AppTitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12pt; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 3px; WIDTH: 100%; COLOR: #003366; PADDING-TOP: 2px; LETTER-SPACING: -1px; font-family: trebuchet ms, verdana, tahoma, arial /* c40f14 */
+}
+
+A {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 11px;
+	color: #333333;
+	text-decoration: underline;
+}
+A.Menu {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 11px;
+	color: #333333;
+	text-decoration: none;
+}
+
+

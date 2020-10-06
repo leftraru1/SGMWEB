@@ -1,0 +1,203 @@
+
+.Button
+{
+	border-right: black 1px solid;
+	border-top: #dddddd 1px solid;
+	font-weight: normal;
+	font-size: 9pt;
+	border-left: #dddddd 1px solid;
+	cursor: hand;
+	color: black;
+	border-bottom: black 1px solid;
+	font-family: trebuchet ms, trebuchet, arial, sans-serif;
+	background-color: inactiveborder;
+	margin-left: 4px;
+}
+
+.botonnew{
+       border-style: none;
+	    border-color: inherit;
+	    border-width: 1px;
+	    font-size:10px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        background:#1d1175;
+        margin-left: 0px;
+        border-radius:5px;
+	}
+
+.ShortButton
+{
+	border-right: black 1px solid;
+	border-top: #dddddd 1px solid;
+	font-weight: normal;
+	font-size: 9pt;
+	border-left: #dddddd 1px solid;
+	width: 20px;
+	cursor: hand;
+	color: black;
+	border-bottom: black 1px solid;
+	font-family: trebuchet ms, trebuchet, arial, sans-serif;
+	height: 20px;
+	background-color: inactiveborder;
+}
+.Label
+{
+	margin-top: 1pt;
+	font-weight: normal;
+	font-size: 8pt;
+	margin-bottom: 1pt;
+	color: black;
+	font-style: normal;
+	font-family: trebuchet ms, verdana, tahoma, arial
+}
+.Required
+{
+	font-weight: bold;
+	font-size: 11pt;
+	color: #cc0000;
+	font-style: normal;
+	font-family: trebuchet ms, verdana, tahoma, arial
+}
+.TextBox
+{
+	border: 1px solid #7f9db9;
+	font-weight: normal;
+	font-size: 11px;
+	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: white;
+	margin-left: 0px;
+    border-radius:5px;
+    text-align:center;
+}
+
+.TextBox2
+{
+	border-right: #7f9db9 1px solid;
+	border-top: #7f9db9 1px solid;
+	font-weight: normal;
+	font-size: 11px;
+	border-left: #7f9db9 1px solid;
+	color: black;
+	border-bottom: #7f9db9 1px solid;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: white;
+	width: 111px;
+}
+
+.TextBox_totalizador
+{
+	border-right: #7f9db9 1px solid;
+	border-top: #7f9db9 1px solid;
+	font-weight: normal;
+	font-size: 11px;
+	border-left: #7f9db9 1px solid;
+	color: black;
+	border-bottom: #7f9db9 1px solid;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: white;
+	width: 50px;
+}
+
+.TextBox3
+{
+	border: 1px solid #7f9db9;
+	font-weight: normal;
+	font-size: 11px;
+	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: white;
+	margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.TextBox4
+{
+	border: 1px solid #7f9db9;
+	font-weight: normal;
+	font-size: 11px;
+	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: white;
+	}
+.DateTextBox
+{
+	border-right: #7f9db9 1px solid;
+	border-top: #7f9db9 1px solid;
+	font-weight: normal;
+	font-size: 11px;
+	border-left: #7f9db9 1px solid;
+	color: black;
+	border-bottom: #7f9db9 1px solid;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: white;
+	width: 120px;
+}
+.TextArea
+{
+	border-right: #7f9db9 1px solid;
+	border-top: #7f9db9 1px solid;
+	font-weight: normal;
+	font-size: 11px;
+	border-left: #7f9db9 1px solid;
+	color: black;
+	border-bottom: #7f9db9 1px solid;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: white;
+	width: 98%;
+}
+.ListBox
+{
+	border-right: #7f9db9 1px solid;
+	border-top: #7f9db9 1px solid;
+	border-left: #7f9db9 1px solid;
+	border-bottom: #7f9db9 1px solid;
+	font-weight: normal;
+	font-size: 11px;
+	width: 100%;
+	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: white;
+}
+.ComboBox
+{
+	border: 1px solid #7f9db9;
+	font-weight: normal;
+	font-size: 11px;
+	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: white;
+    border-radius:5px;
+	margin-left: 0px;
+    margin-bottom:5px;
+}
+
+.ComboBox2
+{
+
+border: 1px solid #7f9db9;
+	font-weight: normal;
+	font-size: 11px;
+	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: white;
+    width :183px;
+	margin-left: 0px;
+}
+
+.ErrorMessage
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.ListBoxFieldSet
+{
+}
+
+.TextAreaFieldSet
+{
+}

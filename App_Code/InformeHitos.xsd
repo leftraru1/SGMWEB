@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="InformeHitos" targetNamespace="http://tempuri.org/InformeHitos.xsd" xmlns:mstns="http://tempuri.org/InformeHitos.xsd" xmlns="http://tempuri.org/InformeHitos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="InformeHitos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="InformeHitos" msprop:Generator_UserDSName="InformeHitos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="InformeHitos" msprop:Generator_TableClassName="InformeHitosDataTable" msprop:Generator_TableVarName="tableInformeHitos" msprop:Generator_RowChangedName="InformeHitosRowChanged" msprop:Generator_TablePropName="_InformeHitos" msprop:Generator_RowDeletingName="InformeHitosRowDeleting" msprop:Generator_RowChangingName="InformeHitosRowChanging" msprop:Generator_RowEvHandlerName="InformeHitosRowChangeEventHandler" msprop:Generator_RowDeletedName="InformeHitosRowDeleted" msprop:Generator_RowClassName="InformeHitosRow" msprop:Generator_UserTableName="InformeHitos" msprop:Generator_RowEvArgName="InformeHitosRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NOMBRE_HITO" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_HITO" msprop:Generator_ColumnPropNameInRow="NOMBRE_HITO" msprop:Generator_ColumnPropNameInTable="NOMBRE_HITOColumn" msprop:Generator_UserColumnName="NOMBRE_HITO" type="xs:string" minOccurs="0" />
+              <xs:element name="NOMBRE_ACTIVIDAD" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_ACTIVIDAD" msprop:Generator_ColumnPropNameInRow="NOMBRE_ACTIVIDAD" msprop:Generator_ColumnPropNameInTable="NOMBRE_ACTIVIDADColumn" msprop:Generator_UserColumnName="NOMBRE_ACTIVIDAD" type="xs:string" minOccurs="0" />
+              <xs:element name="OBSERVACION" msprop:Generator_ColumnVarNameInTable="columnOBSERVACION" msprop:Generator_ColumnPropNameInRow="OBSERVACION" msprop:Generator_ColumnPropNameInTable="OBSERVACIONColumn" msprop:Generator_UserColumnName="OBSERVACION" type="xs:string" minOccurs="0" />
+              <xs:element name="NOMBRE_CAMPANA" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_CAMPANA" msprop:Generator_ColumnPropNameInRow="NOMBRE_CAMPANA" msprop:Generator_ColumnPropNameInTable="NOMBRE_CAMPANAColumn" msprop:Generator_UserColumnName="NOMBRE_CAMPANA" type="xs:string" minOccurs="0" />
+              <xs:element name="ID_AC_CAMP" msprop:Generator_ColumnVarNameInTable="columnID_AC_CAMP" msprop:Generator_ColumnPropNameInRow="ID_AC_CAMP" msprop:Generator_ColumnPropNameInTable="ID_AC_CAMPColumn" msprop:Generator_UserColumnName="ID_AC_CAMP" type="xs:string" />
+              <xs:element name="ESTADO" msprop:Generator_ColumnVarNameInTable="columnESTADO" msprop:Generator_ColumnPropNameInRow="ESTADO" msprop:Generator_ColumnPropNameInTable="ESTADOColumn" msprop:Generator_UserColumnName="ESTADO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="InformeHitosKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:InformeHitos" />
+      <xs:field xpath="mstns:ID_AC_CAMP" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

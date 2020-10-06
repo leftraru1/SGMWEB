@@ -1,0 +1,12 @@
+
+.TitleBorderCell {
+	BORDER-RIGHT: #062f6d 1px dotted; BORDER-TOP: #062f6d 1px dotted; BORDER-LEFT: #062f6d 1px dotted; BORDER-BOTTOM: #062f6d 1px dotted; BACKGROUND-COLOR: #f5f5f5
+}
+.FilledBorderCell {
+	BORDER-RIGHT: #062f6d 1px dotted; BORDER-TOP: #062f6d 1px dotted; BORDER-LEFT: #062f6d 1px dotted; BORDER-BOTTOM: #062f6d 1px dotted; BACKGROUND-COLOR: #c40f14 /* 062f6d */
+}
+.TitleBorderCell2 {
+	BORDER-RIGHT: #062f6d 1px dotted; BORDER-TOP: #062f6d 1px dotted; BORDER-LEFT: #062f6d 1px dotted; BORDER-BOTTOM: #062f6d 1px dotted; BACKGROUND-COLOR: #c40f14 /* 062f6d */
+}
+
+

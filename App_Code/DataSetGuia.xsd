@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetGuia" targetNamespace="http://tempuri.org/DataSetGuia.xsd" xmlns:mstns="http://tempuri.org/DataSetGuia.xsd" xmlns="http://tempuri.org/DataSetGuia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetGuia" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataSetGuia" msprop:Generator_UserDSName="DataSetGuia">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataSetGuia" msprop:Generator_TableClassName="DataSetGuiaDataTable" msprop:Generator_TableVarName="tableDataSetGuia" msprop:Generator_RowChangedName="DataSetGuiaRowChanged" msprop:Generator_TablePropName="_DataSetGuia" msprop:Generator_RowDeletingName="DataSetGuiaRowDeleting" msprop:Generator_RowChangingName="DataSetGuiaRowChanging" msprop:Generator_RowEvHandlerName="DataSetGuiaRowChangeEventHandler" msprop:Generator_RowDeletedName="DataSetGuiaRowDeleted" msprop:Generator_RowClassName="DataSetGuiaRow" msprop:Generator_UserTableName="DataSetGuia" msprop:Generator_RowEvArgName="DataSetGuiaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NUMERO_GUIA" msprop:Generator_ColumnVarNameInTable="columnNUMERO_GUIA" msprop:Generator_ColumnPropNameInRow="NUMERO_GUIA" msprop:Generator_ColumnPropNameInTable="NUMERO_GUIAColumn" msprop:Generator_UserColumnName="NUMERO_GUIA" type="xs:string" minOccurs="0" />
+              <xs:element name="TIPO_GUIA" msprop:Generator_ColumnVarNameInTable="columnTIPO_GUIA" msprop:Generator_ColumnPropNameInRow="TIPO_GUIA" msprop:Generator_ColumnPropNameInTable="TIPO_GUIAColumn" msprop:Generator_UserColumnName="TIPO_GUIA" type="xs:string" minOccurs="0" />
+              <xs:element name="CONTRATISTA" msprop:Generator_ColumnVarNameInTable="columnCONTRATISTA" msprop:Generator_ColumnPropNameInRow="CONTRATISTA" msprop:Generator_ColumnPropNameInTable="CONTRATISTAColumn" msprop:Generator_UserColumnName="CONTRATISTA" type="xs:string" minOccurs="0" />
+              <xs:element name="DESPACHADO_POR" msprop:Generator_ColumnVarNameInTable="columnDESPACHADO_POR" msprop:Generator_ColumnPropNameInRow="DESPACHADO_POR" msprop:Generator_ColumnPropNameInTable="DESPACHADO_PORColumn" msprop:Generator_UserColumnName="DESPACHADO_POR" type="xs:string" minOccurs="0" />
+              <xs:element name="RUT_DESPACHO" msprop:Generator_ColumnVarNameInTable="columnRUT_DESPACHO" msprop:Generator_ColumnPropNameInRow="RUT_DESPACHO" msprop:Generator_ColumnPropNameInTable="RUT_DESPACHOColumn" msprop:Generator_UserColumnName="RUT_DESPACHO" type="xs:string" minOccurs="0" />
+              <xs:element name="RETIRADO_POR" msprop:Generator_ColumnVarNameInTable="columnRETIRADO_POR" msprop:Generator_ColumnPropNameInRow="RETIRADO_POR" msprop:Generator_ColumnPropNameInTable="RETIRADO_PORColumn" msprop:Generator_UserColumnName="RETIRADO_POR" type="xs:string" minOccurs="0" />
+              <xs:element name="RUT_RETIRO" msprop:Generator_ColumnVarNameInTable="columnRUT_RETIRO" msprop:Generator_ColumnPropNameInRow="RUT_RETIRO" msprop:Generator_ColumnPropNameInTable="RUT_RETIROColumn" msprop:Generator_UserColumnName="RUT_RETIRO" type="xs:string" minOccurs="0" />
+              <xs:element name="BODEGA_ORIGEN" msprop:Generator_ColumnVarNameInTable="columnBODEGA_ORIGEN" msprop:Generator_ColumnPropNameInRow="BODEGA_ORIGEN" msprop:Generator_ColumnPropNameInTable="BODEGA_ORIGENColumn" msprop:Generator_UserColumnName="BODEGA_ORIGEN" type="xs:string" minOccurs="0" />
+              <xs:element name="BODEGA_DESTINO" msprop:Generator_ColumnVarNameInTable="columnBODEGA_DESTINO" msprop:Generator_ColumnPropNameInRow="BODEGA_DESTINO" msprop:Generator_ColumnPropNameInTable="BODEGA_DESTINOColumn" msprop:Generator_UserColumnName="BODEGA_DESTINO" type="xs:string" minOccurs="0" />
+              <xs:element name="VEHICULO" msprop:Generator_ColumnVarNameInTable="columnVEHICULO" msprop:Generator_ColumnPropNameInRow="VEHICULO" msprop:Generator_ColumnPropNameInTable="VEHICULOColumn" msprop:Generator_UserColumnName="VEHICULO" type="xs:string" minOccurs="0" />
+              <xs:element name="PATENTE" msprop:Generator_ColumnVarNameInTable="columnPATENTE" msprop:Generator_ColumnPropNameInRow="PATENTE" msprop:Generator_ColumnPropNameInTable="PATENTEColumn" msprop:Generator_UserColumnName="PATENTE" type="xs:string" minOccurs="0" />
+              <xs:element name="FECHA_DESPACHO" msprop:Generator_ColumnVarNameInTable="columnFECHA_DESPACHO" msprop:Generator_ColumnPropNameInRow="FECHA_DESPACHO" msprop:Generator_ColumnPropNameInTable="FECHA_DESPACHOColumn" msprop:Generator_UserColumnName="FECHA_DESPACHO" type="xs:string" minOccurs="0" />
+              <xs:element name="OBSERVACION" msprop:Generator_ColumnVarNameInTable="columnOBSERVACION" msprop:Generator_ColumnPropNameInRow="OBSERVACION" msprop:Generator_ColumnPropNameInTable="OBSERVACIONColumn" msprop:Generator_UserColumnName="OBSERVACION" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,17 @@
+.MenuItem {
+    font-family: Tahoma, Arial, Helvetica;
+    text-decoration: none;
+    font-weight:    bold;
+    font-size: 11px;
+    color : black;
+}
+
+.DisabledMenuItem
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: darkgray;
+	font-family: Tahoma, Arial, Helvetica;
+	text-decoration: none;
+}
+
